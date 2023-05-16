@@ -72,11 +72,8 @@ const resolvers = {
 	Query: {
 		personCount: () => personas.length,
 		allPersons: async (_root, args) => {
-			const response = await fetch('http://localhost:3000/persons');
-			const personsFromApi = await response.json();
-
 			if(!args.phone) return null;
-			return personsFromApi.filter((persona) => args.phone === 'YES' ? persona.phone : !persona.phone)
+			return  personas.filter((persona) => args.phone === 'YES' ? persona.phone : !persona.phone);
 		},
 		// El root o prev puede aparecer, es el valor que tienen los datos antes de ejecutar ese metodo
 		findPerson: (root, args) => {

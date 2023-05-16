@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "nico": "node index.js && json-server --watch db.json",
     "json-server": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,0 +1,24 @@
+{
+    "persons": [
+        {
+            "name": "Nicolas",
+            "phone": "3415929292",
+            "street": "Mendoza",
+            "city": "Rosario",
+            "id": "asdas-12312-qweqw"
+        },
+        {
+            "name": "Pedro",
+            "phone": "3415919191",
+            "street": "valparaiso",
+            "city": "Salta",
+            "id": "lsdgs-12312-qweqw"
+        },
+        {
+            "name": "Manu",
+            "street": "Cordoba",
+            "city": "Barcelona",
+            "id": "asdas-12312-qwpkw"
+        }
+    ]
+}
